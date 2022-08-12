@@ -28,7 +28,7 @@ public class drivetrain extends SubsystemBase {
   public void periodic() {
     // This method will be called once per scheduler run
   }
-  public void setleftdrive(double speed){//donk think that i need follower mode 
+  public void setleftdrive(double speed){//donk think that follower mode is necessary 
     motorleft1.set(ControlMode.PercentOutput, speed);
     motorleft2.set(ControlMode.PercentOutput, speed);
   }
